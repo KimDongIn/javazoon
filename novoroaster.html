@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>LIST + BEISLER</title>
+
+
+	<link type="text/css" rel="stylesheet" href="/css/main.css">
+	<link type="text/css" rel="stylesheet" href="/css/mapPoint.css">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="/script/Standard.js"></script>
+	<script type="text/javascript" src="/script/scroll.js"></script>
+	<script type="text/javascript" src="/script/pageShift.js"></script>
+
+	<script>
+		// 페이지 링크
+		$(function() {
+			$("#header").load("pieceHead.php");
+			$("#nav").load("pieceNav.php");
+			$("#sideBar").load("pieceSidebar.php");
+			//			$("#sideBtn").load("pieceSidelink.html");
+			$("#footer").load("pieceFoot.php");
+
+			// mine page
+			//$("#main").load(".html");
+
+		})
+	</script>
+
+</head>
+
+<body>
+
+	<!-- header-->
+	<header id="header"></header>
+	<!-- hidden nav-->
+	<nav id="nav" class="origins"></nav>
+
+	<!-- hidden sideBar-->
+	<article id="sideBar" class="sideAnimateOut"></article>
+
+	<!-- side butten -->
+	<div id="sideBtn" class="sideLink sideAnimateOut">
+		<div class="sideLinkSell">
+			<label id="mcBtn01" for="menuicon01">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</div>
+
+	<main class="Novomain">
+		<div class="NovoBgImg">
+			<img src="/img/background/novoroaster.png">
+		</div>
+	</main>
+
+	<!-- fooer -->
+	<footer id="footer"></footer>
+
+	<!-- sidebar-->
+	<input type="checkbox" id="menuicon01">
+
+</body></html>

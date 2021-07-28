@@ -1,0 +1,318 @@
+/* 커피리스트=================*/
+main {
+	background: #ede8de;
+}
+
+.mainSell {}
+
+
+.sec01 {
+	position: relative;
+	height: 120vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.sectionSell01 {
+	margin: 0 auto;
+	color: #ffffff;
+	width: 1100px;
+	height: 300px;
+}
+
+.sec01 .bgImg {
+	z-index: -10;
+	width: 100%;
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+
+.sec01 .bgImg img {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.topName {
+	color: #cd1530;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.topName h1 {
+	font-size: 60px;
+	line-height: 2;
+}
+
+.secTop01 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: ;
+	text-align: center;
+	color: #ffffff;
+}
+
+.secTop01 img {
+	max-width: 900px;
+	opacity: 0.8;
+	transition: all 1s;
+}
+
+
+.secFoot01 {
+	width: 1100px;
+	;
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #ffffff;
+	transition: 1s ease;
+	border-top: 0px solid #ffffff;
+}
+
+.secFoot01.animate {
+	border-top: 100px solid #ffffff;
+}
+
+.secFoot01 > .secFootSell {
+	padding: 0px 30px;
+	height: 6vh;
+}
+
+.secFoot01 .titel {
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	color: #cd1530;
+	top: 6%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.secFoot01 .titel.animate {
+	opacity: 1;
+}
+
+.secFoot01 .titel {
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.secFoot01 .text {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	font-size: 18px;
+	line-height: 180%;
+}
+
+.sec02 {}
+
+.sectionSell02 {
+	width: 1100px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.coffeList {
+	padding: 40px 30px 40px;
+	min-height: 80vh;
+	font-size: 0.5rem;
+}
+
+.coffeList table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+.coffeList tr {
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	line-height: 200%;
+}
+
+.coffeList th {
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+}
+
+.coffeList td {
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	cursor: pointer;
+	text-align: center;
+}
+
+/*
+.coffeList th:nth-child(2),
+.coffeList th:nth-child(7):nth-child(12),
+*/
+
+.coffeList th img {
+	width: 60%;
+}
+
+.coffeList tr > th:nth-child(n + 10):nth-child(-n + 12) {
+	padding: 0px 5px;
+	height: 58px;
+}
+
+.coffeList tr > td:nth-child(2),
+.coffeList tr > td:nth-child(n + 7):nth-child(-n + 12) {
+	font-weight: 900;
+	font-size: 0.9rem;
+}
+
+.coffeList tr > td:nth-child(n + 10):nth-child(-n + 12) {
+	padding: 0px 12px;
+	line-height: 100%;
+	vertical-align: bottom;
+}
+
+.coffeList tr > td:nth-child(10) {
+	color: #005944;
+}
+
+.coffeList tr > td:nth-child(11) {
+	color: #333399;
+}
+
+.coffeList tr > td:nth-child(12) {
+	color: #cd1530;
+}
+
+.coffeList .tableTitel {
+	font-size: 1.2rem;
+	background: #e5e5e5;
+}
+
+
+.tableColor1 {
+	background: #99ccff;
+}
+
+.tableColor2 {
+	background: #ffffcc;
+}
+
+.tableColor3 {
+	background: #ccffff;
+}
+
+.tableColor4 {
+	background: #ffcccc;
+}
+
+.tableColor5 {
+	background: #ccffcc;
+}
+
+.tableColor6 {
+	background: #ffccff;
+}
+
+
+.sec03 {}
+
+.sectionSell03 {
+	width: 1100px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.coffeLogoList {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+}
+
+.coffeLogoImg {
+	padding: 10px;
+}
+
+.coffeLogoImg img {
+	width: 100%;
+}
+.addContents{
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	padding: 20px 0px;
+}
+.addContents span{
+	color: #005944;
+	font-size: 10px;
+}
+
+/*=================*/
+/* 크기별 조정*/
+/*데스크탑*/
+@media(min-width: 1281px) {}
+
+/*렙탑 데스크탑*/
+@media(min-width: 1025px) and (max-width: 1280px) {}
+
+/*타블릿, 아이페드(가로)*/
+@media(min-width: 768px) and (max-width: 1024px) {}
+
+/*타블릿, 아이페드(가로) 이하*/
+@media (max-width: 1024px) {
+
+	.sectionSell02 {
+		width: 100%;
+	}
+
+	.sectionSell03 {
+		width: 100%;
+	}
+
+	.sec01 .bgImg {
+		transform: scale(3.5);
+		-webkit-transform: scale(3.5);
+		-moz-transform: scale(3.5);
+		-ms-transform: scale(3.5);
+		-o-transform: scale(3.5);
+	}
+
+	.secTop01 img {
+		max-width: 600px;
+	}
+
+	.sec01 {
+		height: 100vh;
+	}
+
+
+}
+
+/*저해상도 타블릿, 모바일 (가로)*/
+@media(min-width: 481px) and (max-width: 767px) {}
+
+/*저해상도 타블릿, 모바일 (가로)*/
+@media (max-width: 767px) {
+
+	.secTop01 img {
+		max-width: 400px;
+	}
+}
+
+
+/* 스마트폰 세로*/
+@media(min-width: 320px) and (max-width: 480px) {}
+
+
+/**/
